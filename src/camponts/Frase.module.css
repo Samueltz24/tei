@@ -1,0 +1,35 @@
+.cart{
+    /*border: 1px solid #000;*/
+    margin: 20px 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.carte01{
+    flex: 20%;
+    margin-left: 2%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.img{
+    background: olive;
+    padding-top: 5px;
+}
+.butao{
+    background: #07D046;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 0 5px;
+}
+.ima01{
+    width: 100%;
+}
+.frasesca{
+    border-bottom: 1px solid #000;
+    margin: 10px 5%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.na{
+    margin: 10px;
+}
