@@ -6,21 +6,22 @@ import Teste from './camponts/Teste';
 import styles from './camponts/Frase.module.css'
 import imagem from './imagem/rabonete.png'
 import Cards from "./camponts/Cards";
+import Senha from './camponts/Senha'
+import Condicao from "./camponts/Condicao";
+import Minhalista from "./camponts/Minhalista";
+import Seunome from "./camponts/Seunome";
+import Saudacao from "./camponts/Saudacao";
+import { useState } from "react";
 let lista =[imagem]
 function App() {
 
   const url = 'https://images.app.goo.gl/sTBvn4n4eYBpCuXL7'
-  
+ const [nome,setNome] =useState()
   return (
     <div className="App">
-     <p className={styles.frasesca}>sua fruta preferida</p>
-     <div className={styles.cart}>
-      <Cards/>
-     </div>
-     <p className={styles.frasesca}>sua verdura preferida</p>
-     <div className={styles.cart}>
-      <Cards/>
-     </div>
+     <p className={styles.frasesca}>seu nome</p>
+     <Seunome setNome={setNome}/>
+    <Saudacao nome={nome}/>
     </div>
   );
 }

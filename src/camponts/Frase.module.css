@@ -14,12 +14,6 @@
     background: olive;
     padding-top: 5px;
 }
-.butao{
-    background: #07D046;
-    padding: 10px 0;
-    text-align: center;
-    border-radius: 0 5px;
-}
 .ima01{
     width: 100%;
 }
@@ -32,4 +26,61 @@
 }
 .na{
     margin: 10px;
+}
+.bu{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: blue;
+}
+.bu:hover{
+    cursor: pointer;
+    background: gray;
+    color: #fff;
+}
+.enviar{
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px 0;
+}
+.enviar:hover{
+    background: greenyellow;
+    cursor: pointer;
+}
+.buta{
+    background: blue;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.buta:hover{
+    background: grey;
+    cursor: pointer;
+}
+.esque{
+    margin: 10px 5%;
+}
+.p{
+    background: red;
+    padding: 10px;
+    text-align: center;
+    color: #000;
+    width: 90%;
+    margin-left: 5%;
+}
+.no{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+.sau{
+    background-color: blue;
+    width: 24%;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 5px;
 }

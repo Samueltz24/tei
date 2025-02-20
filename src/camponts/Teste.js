@@ -1,5 +1,6 @@
 import styles from './Frase.module.css' 
-function Teste({ImaUrl,Texto}){
+import Butao from './eventos/Butao'
+function Teste({ImaUrl,Texto,numero}){
     return(
         <>
                 <div className={styles.carte01}>
@@ -7,7 +8,7 @@ function Teste({ImaUrl,Texto}){
                         <img className={styles.ima01} src={ImaUrl} alt={Texto}  />
                     </div>
                     <div className={styles.butao}>
-                        clique aqui
+                        <Butao text='clique aqui' numero={numero}/>
                     </div>
                 </div>
              
