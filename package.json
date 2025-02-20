@@ -1,7 +1,7 @@
 {
   "name": "ola",
+  "homepage": "https://seu-usuario.github.io/meu-site",
   "version": "0.1.0",
-  "homepage": "https://github.com/Samueltz24/testereactjs.git",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
