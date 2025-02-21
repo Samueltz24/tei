@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.96ae4b3c.css",
+    "main.js": "/static/js/main.e6554390.js",
+    "static/js/488.275fdf75.chunk.js": "/static/js/488.275fdf75.chunk.js",
+    "static/media/presunto.png": "/static/media/presunto.dadd189a5facd8ccef4c.png",
+    "static/media/rabonete.png": "/static/media/rabonete.157071a9baf2644951b3.png",
+    "index.html": "/index.html",
+    "main.96ae4b3c.css.map": "/static/css/main.96ae4b3c.css.map",
+    "main.e6554390.js.map": "/static/js/main.e6554390.js.map",
+    "488.275fdf75.chunk.js.map": "/static/js/488.275fdf75.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96ae4b3c.css",
+    "static/js/main.e6554390.js"
+  ]
+}
